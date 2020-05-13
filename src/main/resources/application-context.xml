@@ -2,5 +2,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="beanfactory" class="com.steer.springboot.boot.factoryBean.MyFactoryBean"></bean>
+    <bean id="beanfactory" class="com.steer.springboot.boot.factoryBean.MyFactoryBean">
+        <property name="stuId" value="stuId" />
+        <property name="stuName" value="张三" />
+        <property name="age" value="18" />
+        <property name="sex" value="false" />
+    </bean>
 </beans>
