@@ -2,7 +2,7 @@ package com.steer.springboot.boot.factoryBean;
 
 import com.steer.springboot.boot.BootApplicationTests;
 import com.steer.springboot.boot.entity.Student;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
